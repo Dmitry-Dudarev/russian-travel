@@ -1,0 +1,23 @@
+.cover {
+  width: 100%;
+  background-image: url(../../images/cover__background-1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    background-image: url(../../images/cover__background-1024.png);
+  }
+}
+@media (max-width: 768px) {
+  .cover {
+    background-image: url(../../images/cover__background-768.png);
+  }
+}
+@media (max-width: 320px) {
+  .cover {
+    background-image: url(../../images/cover__background-320.png);
+  }
+}

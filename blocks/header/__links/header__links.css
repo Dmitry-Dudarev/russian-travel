@@ -1,0 +1,8 @@
+.header__links {
+  padding-bottom: 6px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto;
+  align-items: end;
+  grid-column-gap: 19px;
+}

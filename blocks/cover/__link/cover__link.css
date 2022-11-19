@@ -1,0 +1,27 @@
+.cover__link {
+  width: 100%;
+  display: block;
+  padding: 20.74% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(42, 44, 47, 0.3);
+  text-decoration: none;
+  transition: background-color 0.4s linear;
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    padding: 19.2% 0;
+  }
+}
+@media (max-width: 768px) {
+  .cover__link {
+    padding: 15% 0;
+  }
+}
+@media (max-width: 320px) {
+  .cover__link {
+    padding: 10.2% 0;
+  }
+}

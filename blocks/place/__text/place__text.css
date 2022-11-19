@@ -1,0 +1,17 @@
+.place__text {
+  grid-column-start: 2;
+  align-self: start;
+  justify-self: start;
+}
+
+@media (max-width: 500px) {
+  .place__text {
+    grid-column-start: 1;
+    grid-row-start: 4;   
+  }
+}
+@media (max-width: 320px) {
+  .place__text {
+    padding: 0 16px 0;
+  }
+}
