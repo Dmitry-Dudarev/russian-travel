@@ -3,7 +3,6 @@
   grid-template-columns: repeat (5,min-content);
   grid-column-gap: 19px;
   grid-auto-flow: column;
-  grid-template-columns: auto;
 }
 
 @media (max-width: 675px) {
