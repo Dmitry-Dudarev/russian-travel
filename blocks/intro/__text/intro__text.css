@@ -7,6 +7,7 @@
   font-size: 16px;
   line-height: 1.625;
   text-align: left;
+  max-width: 690px;
 }
 
 @media (max-width: 320px) {

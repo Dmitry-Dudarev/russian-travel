@@ -13,12 +13,6 @@
   margin-bottom: 0px;
 }
 
-@media (min-width: 1281px) {
-  .place__paragraph {
-    font-size: 22px;
-  }
-}
-
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
