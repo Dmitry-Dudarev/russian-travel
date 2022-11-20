@@ -9,12 +9,6 @@
   text-align: left;
 }
 
-@media (min-width: 1281px) {
-  .intro__text {
-    font-size: 22px;
-  }
-}
-
 @media (max-width: 320px) {
   .intro__text {
     padding-bottom: 34px;
