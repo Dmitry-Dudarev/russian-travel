@@ -1,8 +1,9 @@
 .lead__caption {
   margin: 0;
-  padding-top: 8px;
+  padding-top: 4px;
   color: #FFFFFF;
-  font-family: 'Inter-Regular', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 200;
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -13,12 +14,13 @@
 
 @media (max-width: 768px) {
   .lead__caption {
-    padding-left: 24px;
+    padding-left: 25px;
   }
 }
+
 @media (max-width: 320px) {
   .lead__caption {
-    padding: 8px 16px 0;
+    padding: 2px 16px 0;
     font-size: 10px;
   }
 }

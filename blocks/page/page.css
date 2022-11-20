@@ -8,9 +8,10 @@
 
 @media (max-width: 1024px) {
   .page {
-   padding: 28px 0 24px;
+    padding: 28px 0 24px;
   }
 }
+
 @media (max-width: 320px) {
   .page {
     padding: 16px 0 24px;

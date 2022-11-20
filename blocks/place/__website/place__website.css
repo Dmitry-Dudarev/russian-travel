@@ -1,19 +1,18 @@
-.place__vebsite {
-  max-height: 46px;
+.place__website {
   grid-column-start: 2;
   align-self: end;
   justify-self: start;
 }
 
 @media (max-width: 500px) {
-  .place__vebsite {
+  .place__website {
     grid-column-start: 1;
-    grid-row-start: 2;   
+    grid-row-start: 2;
   }
 }
+
 @media (max-width: 320px) {
-  .place__vebsite {
-    max-height: 46px;
+  .place__website {
     padding: 0 16px;
   }
 }

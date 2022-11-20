@@ -1,8 +1,12 @@
 .footer__links {
+  margin: 0;
+  padding: 0;
   display: grid;
-  grid-template-columns: repeat (5,min-content);
+  grid-template-columns: auto;
   grid-column-gap: 19px;
   grid-auto-flow: column;
+  justify-self: start;
+  list-style-type: none;
 }
 
 @media (max-width: 675px) {
@@ -10,6 +14,7 @@
     align-self: flex-start;
   }
 }
+
 @media (max-width: 500px) {
   .footer__links {
     display: grid;

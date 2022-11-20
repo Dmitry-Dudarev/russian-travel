@@ -1,8 +1,14 @@
 .header__links {
+  margin: 0;
   padding-bottom: 6px;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: auto;
+  display: flex;
+  flex-direction: row;
   align-items: end;
-  grid-column-gap: 19px;
+  list-style-type: none;
+}
+
+@media (max-width: 320px) {
+  .header__links {
+    padding-bottom: 8px;
+  }
 }

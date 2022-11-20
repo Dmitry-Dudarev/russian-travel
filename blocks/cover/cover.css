@@ -11,11 +11,13 @@
     background-image: url(../../images/cover__background-1024.png);
   }
 }
+
 @media (max-width: 768px) {
   .cover {
     background-image: url(../../images/cover__background-768.png);
   }
 }
+
 @media (max-width: 320px) {
   .cover {
     background-image: url(../../images/cover__background-320.png);
