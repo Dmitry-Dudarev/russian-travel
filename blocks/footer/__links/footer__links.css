@@ -9,17 +9,11 @@
   list-style-type: none;
 }
 
-@media (max-width: 675px) {
-  .footer__links {
-    align-self: flex-start;
-  }
-}
-
 @media (max-width: 500px) {
   .footer__links {
     display: grid;
     grid-template-columns: min-content;
-    grid-row-gap: 32px;
+    grid-row-gap: 31px;
     grid-column-gap: 0;
     grid-auto-flow: row;
   }

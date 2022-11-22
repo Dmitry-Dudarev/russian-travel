@@ -7,7 +7,6 @@
 
 @media (max-width: 500px) {
   .place__image {
-    grid-column-start: 1;
     grid-row-start: 3;
   }
 }

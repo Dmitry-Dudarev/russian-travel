@@ -1,12 +1,11 @@
 .footer__copyright {
   margin: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   color: #FFFFFF;
   font-size: 14px;
   line-height: 1.143;
   text-align: end;
-  align-self:center;
 }
 
 @media (max-width: 675px) {
@@ -17,10 +16,8 @@
 
 @media (max-width: 500px) {
   .footer__copyright {
-
-    padding-top: 48px;
+    padding-top: 46px;
     font-size: 14px;
     line-height: 1;
-    text-align: end;
   }
 }
